@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CViewController : UIViewController
+{
+    UIButton*button;
 
+}
+-(IBAction)animation:(id)sender;
 @end
